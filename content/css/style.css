@@ -1,0 +1,54 @@
+
+/* 
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+} */
+
+/* 
+body {
+    background-image: linear-gradient(to right top, #3e9fe9, #5babec, #73b7ee, #8ac3f1, #a0cff3, #9cc8ec, #97c2e4, #93bbdd, #75a0cb, #5985b9, #406aa6, #295092);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+} */
+
+/* Style for the full-screen modal */
+/* .modal {
+    display: none;
+    position:fixed;
+    z-index: 1;
+    height:100vh;
+    left: 0;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+
+  .modal-content {
+    height: 100%;
+    background-color: #fefefe;
+   
+  }
+  
+
+  .close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }
+   */

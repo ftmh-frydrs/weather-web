@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./content/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather App</title>
+</head>
+
+<body class="h-screen bg-blue-200 text-white">
+    <!-- <button id="searchButton">Search</button>
+   
+    <div id="searchModal" class="modal search w-[100%]">
+
+        <div class="modal-content w-[100%] flex flex-col justify-center items-center"> -->
+            <h1 class="text-center text-white text-4xl font-bold mt-5">Weather</h1>
+
+            <div class="show flex justify-center items-center"></div>
+
+            <!-- <span id="closeModal" class="close">&times;</span> -->
+               <div class="flex justify-center items-center mt-12">
+                <input type="text" placeholder="Enter city name" class="outline-0 border-b bg-blue-200">
+                <button class="bg-blue-400 text-white mx-3 rounded p-2">Search</button>
+               </div>
+          
+            
+            <div>
+                <div class="err hidden">
+                    <p class="text-red-500 mt-3 font-bold text-center">Invalid city</p>
+                </div>
+               
+                    
+                        <div class="cities-container flex justify-center items-center mt-5">
+                        </div>
+                  
+               
+                <div class="hidden App">
+                    <img src="./content/img/rain.png" alt="" class="icon mt-5 mx-auto">
+                    <p class="temp text-6xl font-bold text-white">22°C</p>
+                    <p class="city text-white font-bold text-4xl mt-5">New Yourk</p>
+                    <div class="details flex items-center justify-between p-3 mt-12">
+                       
+            </div>
+                </div>
+                
+            </div>
+        <!-- </div>
+    </div> -->
+
+
+    
+
+    <!-- 
+         <div class="w-[90%] max-w-[400px] mx-auto mt-24 rounded-2xl p-5 h-auto text-center container">
+        <div class="search w-full flex items-center justify-between">
+            <input class="flex-1 text-bg-black mr-3 p-4 rounded-full outline-0 border-0 h-[60px]" type="text" placeholder="enter city name">
+            <button><img class="btn w-[3rem] h-[3rem] p-1 bg-white rounded-full border-4 border-white" src="./content/img/search.png" alt=""></button>
+        </div>
+        <div class="err hidden">
+            <p class="text-red-500 mt-3 font-bold">Invalid city</p>
+        </div>
+        <div class="cities-container">
+        </div>
+    </div>
+     -->
+    
+    <script src="./content/js/script.js"></script>
+</body>
+</html>
